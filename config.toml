@@ -25,128 +25,98 @@ pluralizelisttitles = false
 
     # Main menu
     [[menu.main]]
-        name       = "Home"
+        name       = "Inicio"
         identifier = "menu.home"
         url        = "/"
         weight     = 1
 
     [[menu.main]]
-        name       = "Option 1: Default Page"
-        url        = "/"
-        weight     = 1
-        parent     = "menu.home"
-
-    [[menu.main]]
-        name       = "Option 2: Application"
-        url        = "/"
-        weight     = 2
-        parent     = "menu.home"
-
-    [[menu.main]]
-        name       = "Option 3: Startup"
-        url        = "/"
-        weight     = 3
-        parent     = "menu.home"
-
-    [[menu.main]]
-        name       = "Option 4: Agency"
-        url        = "/"
-        weight     = 4
-        parent     = "menu.home"
-
-    [[menu.main]]
-        name       = "Option 5: Portfolio"
-        url        = "/"
-        weight     = 5
-        parent     = "menu.home"
-
-    [[menu.main]]
-        name       = "Features"
-        identifier = "menu.features"
+        name       = "Productos"
+        identifier = "menu.items"
         url        = "/img/template-easy-customize.png"
-        weight     = 3
+        weight     = 2
 
     [[menu.main]]
-        name       = "Shortcodes"
-        identifier = "section.shortcodes"
+        name       = "categoria1"
+        identifier = "section.categoria1"
         url        = ""
         weight     = 1
-        parent     = "menu.features"
+        parent     = "menu.items"
         post       = 1
 
     [[menu.main]]
-        name       = "Header variations"
-        identifier = "section.headervariations"
+        name       = "categoria2"
+        identifier = "section.categoria2"
         url        = ""
         weight     = 2
-        parent     = "menu.features"
+        parent     = "menu.items"
         post       = 2
 
     [[menu.main]]
-        name       = "Accordions"
+        name       = "subcategoria1.1"
         url        = ""
         weight     = 1
-        parent     = "section.shortcodes"
+        parent     = "section.categoria1"
 
     [[menu.main]]
-        name       = "Alerts"
+        name       = "subcategoria1.2"
         url        = ""
         weight     = 2
-        parent     = "section.shortcodes"
+        parent     = "section.categoria1"
 
     [[menu.main]]
-        name       = "Buttons"
+        name       = "subcategoria1.3"
         url        = ""
         weight     = 3
-        parent     = "section.shortcodes"
+        parent     = "section.categoria1"
 
     [[menu.main]]
-        name       = "Content Boxes"
+        name       = "subcategoria1.4"
         url        = ""
         weight     = 4
-        parent     = "section.shortcodes"
+        parent     = "section.categoria1"
 
     [[menu.main]]
-        name       = "Horizontal Blocks"
+        name       = "subcategoria1.5"
         url        = ""
         weight     = 5
-        parent     = "section.shortcodes"
+        parent     = "section.categoria1"
 
     [[menu.main]]
-        name       = "Pagination"
+        name       = "subcategoria1.6"
         url        = ""
         weight     = 6
-        parent     = "section.shortcodes"
+        parent     = "section.categoria1"
 
     [[menu.main]]
-        name       = "Tabs"
+        name       = "subcategoria1.7"
         url        = ""
         weight     = 7
-        parent     = "section.shortcodes"
+        parent     = "section.categoria1"
 
     [[menu.main]]
-        name       = "Typography"
+        name       = "subcategoria1.7"
         url        = ""
         weight     = 8
-        parent     = "section.shortcodes"
+        parent     = "section.categoria1"
 
     [[menu.main]]
-        name       = "Default Sticky Header"
+        name       = "subcategoria2.1"
         url        = ""
         weight     = 1
-        parent     = "section.headervariations"
+        parent     = "section.categoria2"
 
     [[menu.main]]
-        name       = "No Sticky Header"
+        name       = "subcategoria2.2"
         url        = ""
         weight     = 2
-        parent     = "section.headervariations"
+        parent     = "section.categoria2"
 
     [[menu.main]]
-        name       = "Light Header"
+        name       = "subcategoria2.3"
         url        = ""
         weight     = 3
-        parent     = "section.headervariations"
+        parent     = "section.categoria2"
 
     [[menu.main]]
         name       = "Portfolio"

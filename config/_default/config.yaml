@@ -1,0 +1,40 @@
+baseurl: "" # for official website
+title: Skyplus Colombia
+languageCode: en-us
+theme: universal
+
+# Enable comments by entering your Disqus shortname
+disqusShortname: ""
+
+# Enable Google Analytics by entering your tracking code
+googleAnalytics: ""
+
+# number of words of summarized post content (default 70)
+summaryLength: 70
+
+# Define the number of posts per page
+paginate: 10
+
+# not pluralize title pages by default
+pluralizelisttitles: false
+
+permalinks:
+  blog: /blog/:year/:month/:day/:slug/
+
+taxonomies:
+  category: categories
+  tag: tags
+  author: authors
+
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage: es
+
+languages:
+  es:
+    contentDir: content/spanish
+    languageName: Spanish
+    weight: 1
+  en:
+    contentDir: content/english
+    languageName: English
+    weight: 2

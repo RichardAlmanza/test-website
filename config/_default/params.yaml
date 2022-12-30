@@ -1,12 +1,11 @@
 viewMorePostLink: /blog/
-author: DevCows
+author: Skyplus
 defaultKeywords:
-  - devcows
   - hugo
   - go
 mainSections:
   - blog
-defaultDescription: Site template made by Devcows using Hugo
+defaultDescription: Sobre Nosotros Somos una marca dedicada a la producción y distribución de dispositivos electrónicos, digitales para telecomunicaciones y para el hogar. Desde el año 2011 en el mercado colombiano, Y desde el año 2019 en el mercado de los Estados Unidos 🇺🇸 Encuéntranos en Amazon. ¡CONTACTANOS! ¿Por que nos escogen? Garantía absoluta de nuestra promesa
 
 # Social media
 facebook_site: # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
@@ -57,8 +56,8 @@ contact_form_ajax: false
 enableRecaptchaInContactForm: false
 googleRecaptchaKey: site_key_for_google_recaptcha
 
-about_us: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-copyright: Copyright (c) 2015 - 2016, YourCompany; all rights reserved.
+about_us: <p>Somos una marca dedicada a la producción y distribución de dispositivos electrónicos, digitales para telecomunicaciones y para el hogar.</p>
+copyright: Copyright (c) 2022, Skyplus; Todos los derecho reservados.
 
 # Format dates with Go's time formatting
 date_format: January 2, 2006
@@ -66,30 +65,18 @@ date_format: January 2, 2006
 dropdown_mouse_over: false
 
 disabled_logo: false
-logo_text: Universal
+logo_text: Skyplus
 
 logo: img/logo.png
 logo_small: img/logo-small.png
 contact_url: /contact
 
-address: |
-  <p class="text-uppercase"><strong>Universal Ltd.</strong>
-    <br>13/25 New Avenue
-    <br>Newtown upon River
-    <br>45Y 73J
-    <br>England
-    <br>
-    <strong>Great Britain</strong>
-  </p>
+address:
 
 # Enable or disable top bar with social icons
 topbar:
   enable: true
-  text: |
-    <p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-    <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-    <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-    </p>
+  text:
 
 # Enable and disable widgets for the right sidebar
 widgets:

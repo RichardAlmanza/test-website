@@ -31,10 +31,16 @@ defaultContentLanguage: es
 
 languages:
   es:
-    contentDir: content/spanish
+    contentDir: content/es
     languageName: Spanish
     weight: 1
   en:
-    contentDir: content/english
+    contentDir: content/en
     languageName: English
     weight: 2
+    params:
+      copyright: Copyright (c) 2022, Skyplus; all rights reserved.
+      about_us: Skyplus is all about digital innovations to bring style, comfort and ease in your daily life.
+      contact_url: /en/contact
+
+

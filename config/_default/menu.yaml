@@ -139,7 +139,8 @@ main:
     post: 2
 
   - name: About Us
-    url: ""
+    identifier: item.about-us
+    url: /about
     weight: 1
     parent: section.about
 

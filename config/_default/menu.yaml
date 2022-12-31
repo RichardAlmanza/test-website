@@ -1,259 +1,113 @@
-# Main menu
+# MAIN MENUS
 main:
+  # HOME
   - name: Home
     identifier: menu.home
     url: /
     weight: 1
 
+  # PRODUCTS MENU
   - name: Products
     identifier: menu.products
     url: /img/template-easy-customize.png
-    weight: 3
+    weight: 2
 
-  - name: Shortcodes
-    identifier: section.shortcodes
-    url: ""
+  # PRODUCTS MENU - PERIPHERALS SECTION
+  - name: Peripherals
+    identifier: section.peripherals
+    url:
     weight: 1
     parent: menu.products
     post: 1
 
-  - name: Header variations
-    identifier: section.headervariations
-    url: ""
+  - name: Mice
+    identifier: products.mice
+    url:
+    weight: 1
+    parent: section.peripherals
+
+  - name: Keyboards
+    identifier: products.keyboards
+    url:
     weight: 2
+    parent: section.peripherals
+
+  - name: Headphones
+    identifier: products.headphones
+    url:
+    weight: 3
+    parent: section.peripherals
+
+  # PRODUCTS MENU - PHONE ACCESSORIES SECTION
+  - name: Phone Accessories
+    identifier: section.phone-accessories
+    url:
+    weight: 3
     parent: menu.products
     post: 2
 
-  - name: Accordions
-    url: ""
+  - name: Earphones
+    identifier: phone-accessories.earphones
+    url:
     weight: 1
-    parent: section.shortcodes
+    parent: section.phone-accessories
 
-  - name: Alerts
-    url: ""
+  - name: Cables
+    identifier: phone-accessories.cables
+    url:
     weight: 2
-    parent: section.shortcodes
+    parent: section.phone-accessories
 
-  - name: Buttons
-    url: ""
-    weight: 3
-    parent: section.shortcodes
+  # PRODUCTS MENU - BATTERIES SECTION
+  - name: Batteries
+    identifier: section.batteries
+    url:
+    weight: 2
+    parent: menu.products
+    post: 1
 
-  - name: Content Boxes
-    url: ""
+  - name: Power banks
+    identifier: batteries.power-banks
+    url:
+    weight: 1
+    parent: section.batteries
+
+  # PRODUCTS MENU - SPEAKERS SECTION
+  - name: Speakers
+    identifier: section.speakers
+    url:
     weight: 4
-    parent: section.shortcodes
-
-  - name: Horizontal Blocks
-    url: ""
-    weight: 5
-    parent: section.shortcodes
-
-  - name: Pagination
-    url: ""
-    weight: 6
-    parent: section.shortcodes
-
-  - name: Tabs
-    url: ""
-    weight: 7
-    parent: section.shortcodes
-
-  - name: Typography
-    url: ""
-    weight: 8
-    parent: section.shortcodes
-
-  - name: Default Sticky Header
-    url: ""
-    weight: 1
-    parent: section.headervariations
-
-  - name: No Sticky Header
-    url: ""
-    weight: 2
-    parent: section.headervariations
-
-  - name: Light Header
-    url: ""
-    weight: 3
-    parent: section.headervariations
-
-  - name: Portfolio
-    identifier: menu.portfolio
-    url: /img/template-homepage.png
-    weight: 3
-
-  - name: Portfolio
-    identifier: section.portfolio
-    url: ""
-    weight: 1
-    parent: menu.portfolio
-    post: 1
-
-  - name: 2 Columns
-    url: ""
-    weight: 1
-    parent: section.portfolio
-
-  - name: 2 Columns With Negative Space
-    url: ""
-    weight: 2
-    parent: section.portfolio
-
-  - name: 3 Columns
-    url: ""
-    weight: 3
-    parent: section.portfolio
-
-  - name: 3 Columns With Negative Space
-    url: ""
-    weight: 4
-    parent: section.portfolio
-
-  - name: 4 Columns
-    url: ""
-    weight: 5
-    parent: section.portfolio
-
-  - name: 4 Columns With Negative Space
-    url: ""
-    weight: 6
-    parent: section.portfolio
-
-  - name: Portfolio - detail
-    url: ""
-    weight: 7
-    parent: section.portfolio
-
-  - name: Portfolio - detail 2
-    url: ""
-    weight: 8
-    parent: section.portfolio
-
-  - name: About
-    identifier: section.about
-    url: ""
-    weight: 2
-    parent: menu.portfolio
+    parent: menu.products
     post: 2
 
-  - name: About Us
-    identifier: item.about-us
-    url: /about
+  - name: Speakers
+    identifier: speakers.speakers
+    url:
     weight: 1
-    parent: section.about
+    parent: section.speakers
 
-  - name: Our Team
-    url: ""
+  - name: Microphones
+    identifier: speakers.microphones
+    url:
     weight: 2
-    parent: section.about
+    parent: section.speakers
 
-  - name: Marketing
-    identifier: section.marketing
-    url: ""
-    weight: 3
-    parent: menu.portfolio
-    post: 2
-
-  - name: Packages
-    url: ""
-    weight: 1
-    parent: section.marketing
-
-  - name: All Pages
-    identifier: menu.allpages
-    url: ""
-    weight: 4
-
-  - name: Home
-    identifier: section.ap-home
-    url: ""
-    weight: 1
-    parent: menu.allpages
-    post: 1
-
-  - name: About
-    identifier: section.ap-about
-    url: ""
-    weight: 2
-    parent: menu.allpages
-    post: 1
-
-  - name: Marketing
-    identifier: section.ap-marketing
-    url: ""
-    weight: 3
-    parent: menu.allpages
-    post: 1
-
-  - name: Portfolio
-    identifier: section.ap-portfolio
-    url: ""
-    weight: 1
-    parent: menu.allpages
-    post: 2
-
-  - name: User Pages
-    identifier: section.ap-userpages
-    url: ""
-    weight: 2
-    parent: menu.allpages
-    post: 2
-
-  - name: Shop
-    identifier: section.ap-shop
-    url: ""
-    weight: 1
-    parent: menu.allpages
-    post: 3
-
-  - name: Shop - Order Process
-    identifier: section.ap-shoporderprocess
-    url: ""
-    weight: 2
-    parent: menu.allpages
-    post: 3
-
-  - name: Contact
-    identifier: section.ap-contact
-    url: ""
-    weight: 1
-    parent: menu.allpages
-    post: 4
-
-  - name: Pages
-    identifier: section.ap-pages
-    url: ""
-    weight: 2
-    parent: menu.allpages
-    post: 4
-
-  - name: Blog
-    identifier: section.ap-blog
-    url: /blog/
-    weight: 3
-    parent: menu.allpages
-    post: 4
-
-  - name: Blog Listing Big
-    url: /blog/
-    weight: 1
-    parent: section.ap-blog
-
+  # BLOG
   - name: Blog
     identifier: menu.blog
-    url: /blog/
+    url: /blog
     weight: 5
 
-  - name: FAQ
+  # About
+  - name: About us
     identifier: menu.faq
-    url: /faq/
+    url: /about
     weight: 6
 
+  # CONTACT
   - name: Contact
     identifier: contact
-    url: /contact/
+    url: /contact
     weight: 7
 
 topbar:

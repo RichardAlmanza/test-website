@@ -9,18 +9,18 @@ defaultDescription: Sobre Nosotros Somos una marca dedicada a la producción y d
 
 # Social media
 facebook_site: # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
-twitter_site: GoHugoIO # the Twitter handle of your site (without the '@')
+twitter_site: # the Twitter handle of your site (without the '@')
 default_sharing_image: img/sharing-default.png
 
 # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
-enableGoogleMaps: true
+enableGoogleMaps: false
 googleMapsApiKey: ""
 
 latitude: -12.043333
 longitude: -77.028333
 
 # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-style: default
+style: blue
 
 # Since this template is static, the contact form uses www.formspree.io as a
 # proxy. The form makes a POST request to their servers to send the actual
@@ -137,10 +137,10 @@ clients:
   subtitle: ""
 
 recent_posts:
-  enable: true
+  enable: false
   title: From our blog
   subtitle: Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
   hide_summary: false
 
 footer.recent_posts:
-  enable: true
+  enable: false

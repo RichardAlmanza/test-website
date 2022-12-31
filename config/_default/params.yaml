@@ -62,14 +62,14 @@ copyright: Copyright (c) 2022, Skyplus; Todos los derecho reservados.
 # Format dates with Go's time formatting
 date_format: January 2, 2006
 
-dropdown_mouse_over: false
+dropdown_mouse_over: true
 
 disabled_logo: false
 logo_text: Skyplus
 
 logo: img/logo.png
 logo_small: img/logo-small.png
-contact_url: /contact
+contact_url: /es/contact
 
 address:
 

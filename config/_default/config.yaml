@@ -28,6 +28,7 @@ taxonomies:
 
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage: es
+defaultContentLanguageInSubdir : true
 
 languages:
   es:

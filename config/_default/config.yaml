@@ -19,7 +19,7 @@ paginate: 10
 pluralizelisttitles: false
 
 permalinks:
-  blog: /blog/:year/:month/:day/:slug/
+  blog: blog/:year/:month/:day/:slug/
 
 taxonomies:
   category: categories
@@ -42,6 +42,6 @@ languages:
     params:
       copyright: Copyright (c) 2022, Skyplus; all rights reserved.
       about_us: Skyplus is all about digital innovations to bring style, comfort and ease in your daily life.
-      contact_url: /en/contact
+      contact_url: en/contact
 
 

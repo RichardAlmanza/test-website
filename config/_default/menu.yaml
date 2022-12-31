@@ -3,7 +3,7 @@ main:
   # HOME
   - name: Home
     identifier: menu.home
-    url: /
+    url:
     weight: 1
 
   # PRODUCTS MENU
@@ -95,19 +95,19 @@ main:
   # BLOG
   - name: Blog
     identifier: menu.blog
-    url: /blog
+    url: blog
     weight: 5
 
   # About
   - name: About us
     identifier: menu.faq
-    url: /about
+    url: about
     weight: 6
 
   # CONTACT
   - name: Contact
     identifier: contact
-    url: /contact
+    url: contact
     weight: 7
 
 topbar:

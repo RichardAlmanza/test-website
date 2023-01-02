@@ -125,12 +125,12 @@ testimonials:
   subtitle: We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us.
 
 see_more:
-  enable: false
-  icon: far fa-file-alt
-  title: Do you want to see more?
-  subtitle: We have prepared for you more than 40 different HTML pages, including 5 variations of homepage.
-  link_url: "#"
-  link_text: Check other homepages
+  enable: true
+  icon: fas fa-lightbulb
+  title: Nuestro lema
+  subtitle: Gran tecnología para ti y tu hogar.
+  link_url:
+  link_text:
 
 clients:
   enable: false

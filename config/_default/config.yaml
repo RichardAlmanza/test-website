@@ -28,20 +28,20 @@ taxonomies:
 
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage: es
-defaultContentLanguageInSubdir : true
+# defaultContentLanguageInSubdir : true
 
-languages:
-  es:
-    contentDir: content/es
-    languageName: Spanish
-    weight: 1
-  en:
-    contentDir: content/en
-    languageName: English
-    weight: 2
-    params:
-      copyright: Copyright (c) 2022, Skyplus; all rights reserved.
-      about_us: Skyplus is all about digital innovations to bring style, comfort and ease in your daily life.
-      contact_url: en/contact
+# languages:
+#   es:
+#     contentDir: content/es
+#     languageName: Spanish
+#     weight: 1
+#   en:
+#     contentDir: content/en
+#     languageName: English
+#     weight: 2
+#     params:
+#       copyright: Copyright (c) 2022, Skyplus; all rights reserved.
+#       about_us: Skyplus is all about digital innovations to bring style, comfort and ease in your daily life.
+#       contact_url: en/contact
 
 

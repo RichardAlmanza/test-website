@@ -1,4 +1,4 @@
-viewMorePostLink: /blog/
+viewMorePostLink: blog
 author: Skyplus
 defaultKeywords:
   - hugo
@@ -69,7 +69,7 @@ logo_text: Skyplus
 
 logo: img/logo.png
 logo_small: img/logo-small.png
-contact_url: es/contact
+contact_url: contact
 
 address:
 
@@ -106,14 +106,14 @@ carouselHomepage:
   pagination_speed: 1000
 
 features:
-  enable: true
+  enable: false
   cols: 3 # Default: 3, Available values 2,3,4,6
   # All features are defined in their own files. You can find example items
   # at 'exampleSite/data/features'.
   # For more information take a look at the README.
 
 testimonials:
-  enable: true
+  enable: false
   # All testimonials are defined in their own files. You can find example items
   # at 'exampleSite/data/testimonials'.
   # For more information take a look at the README.
@@ -121,7 +121,7 @@ testimonials:
   subtitle: We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us.
 
 see_more:
-  enable: true
+  enable: false
   icon: far fa-file-alt
   title: Do you want to see more?
   subtitle: We have prepared for you more than 40 different HTML pages, including 5 variations of homepage.
@@ -129,7 +129,7 @@ see_more:
   link_text: Check other homepages
 
 clients:
-  enable: true
+  enable: false
   # All clients are defined in their own files. You can find example items
   # at 'exampleSite/data/clients'.
   # For more information take a look at the README.

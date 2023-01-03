@@ -85,8 +85,8 @@ widgets:
   search: true
 
 carouselCustomers:
-  items: 6
-  auto_play: false
+  items: 3
+  auto_play: true
   slide_speed: 2000
   pagination_speed: 1000
 
@@ -133,11 +133,11 @@ see_more:
   link_text:
 
 clients:
-  enable: false
+  enable: true
   # All clients are defined in their own files. You can find example items
   # at 'exampleSite/data/clients'.
   # For more information take a look at the README.
-  title: Our Clients
+  title: Nuestros clientes
   subtitle: ""
 
 recent_posts:

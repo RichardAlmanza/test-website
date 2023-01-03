@@ -57,7 +57,7 @@ enableRecaptchaInContactForm: false
 googleRecaptchaKey: site_key_for_google_recaptcha
 
 about_us: <p>Somos una marca dedicada a la producción y distribución de dispositivos electrónicos, digitales para telecomunicaciones y para el hogar.</p>
-copyright: Copyright (c) 2022, Skyplus; Todos los derecho reservados.
+copyright: Copyright (c) 2023, Skyplus; Todos los derecho reservados.
 
 # Format dates with Go's time formatting
 date_format: January 2, 2006
@@ -65,10 +65,10 @@ date_format: January 2, 2006
 dropdown_mouse_over: true
 
 disabled_logo: false
-logo_text: Skyplus
+logo_text: SKYPLUS
 
-logo: img/logo.png
-logo_small: img/logo-small.png
+logo: img/logo/skyplus.png
+logo_small: img/logo/skyplus-small.png
 contact_url: contact
 
 address:

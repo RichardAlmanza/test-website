@@ -100,13 +100,13 @@ main:
 
   # About
   - name: About us
-    identifier: menu.faq
+    identifier: menu.about
     url: about
     weight: 6
 
   # CONTACT
   - name: Contact
-    identifier: contact
+    identifier: menu.contact
     url: contact
     weight: 7
 

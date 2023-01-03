@@ -4,3 +4,47 @@
 - id: menu.products
   translation: Productos
 
+- id: section.peripherals
+  translation: Periféricos
+
+- id: products.mice
+  translation: Ratones
+
+- id: products.keyboards
+  translation: Teclados
+
+- id: products.headphones
+  translation: Auriculares
+
+- id: section.phone-accessories
+  translation: Accesorios para celular
+
+- id: phone-accessories.earphones
+  translation: Auriculares
+
+- id: phone-accessories.cables
+  translation: Cables
+
+- id: section.batteries
+  translation: Baterías
+
+- id: batteries.power-banks
+  translation: Baterías externas
+
+- id: section.speakers
+  translation: Parlantes
+
+- id: speakers.speakers
+  translation: Parlantes
+
+- id: speakers.microphones
+  translation: Micrófonos
+
+- id: menu.blog
+  translation: Blog
+
+- id: menu.about
+  translation: Sobre nosotros
+
+- id: menu.contact
+  translation: Contacto

@@ -1,3 +1,5 @@
+# Menus
+
 - id: menu.home
   translation: Inicio
 
@@ -48,3 +50,9 @@
 
 - id: menu.contact
   translation: Contacto
+
+# Words
+
+- id: contact
+  translation: Contacto
+  

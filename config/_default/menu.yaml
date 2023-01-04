@@ -115,10 +115,12 @@ topbar:
     name: Whatsapp
     url: https://wa.me/573128459082
     pre: <i class='fab fa-2x fa-whatsapp'></i>
+
   - weight: 2
     name: Facebook
     url: https://facebook.com/skypluscolombia
     pre: <i class='fab fa-2x fa-facebook'></i>
+    
   - weight: 3
     name: Instagram
     url: https://instagram.com/skypluscolombia

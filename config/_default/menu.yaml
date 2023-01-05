@@ -9,7 +9,7 @@ main:
   # PRODUCTS MENU
   - name: Products
     identifier: menu.products
-    url: /img/template-easy-customize.png
+    url: /img/products-menu.png
     weight: 2
 
   # PRODUCTS MENU - PERIPHERALS SECTION
@@ -120,7 +120,7 @@ topbar:
     name: Facebook
     url: https://facebook.com/skypluscolombia
     pre: <i class='fab fa-2x fa-facebook'></i>
-    
+
   - weight: 3
     name: Instagram
     url: https://instagram.com/skypluscolombia

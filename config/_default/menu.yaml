@@ -93,10 +93,10 @@ main:
     parent: section.speakers
 
   # BLOG
-  - name: Blog
-    identifier: menu.blog
-    url: blog
-    weight: 5
+  # - name: Blog
+  #   identifier: menu.blog
+  #   url: blog
+  #   weight: 5
 
   # About
   - name: About us

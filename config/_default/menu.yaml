@@ -10,51 +10,52 @@ main:
   - name: Products
     identifier: menu.products
     url: img/products-menu.png
+    pre: products
     weight: 2
 
   # PRODUCTS MENU - PERIPHERALS SECTION
   - name: Peripherals
     identifier: section.peripherals
-    url:
+    url: products/peripherals
     weight: 1
     parent: menu.products
     post: 1
 
   - name: Mice
     identifier: products.mice
-    url:
+    url: products/peripherals #/mice
     weight: 1
     parent: section.peripherals
 
   - name: Keyboards
     identifier: products.keyboards
-    url:
+    url: products/peripherals #/keyboards
     weight: 2
     parent: section.peripherals
 
   - name: Headphones
     identifier: products.headphones
-    url:
+    url: products/peripherals #/headphones
     weight: 3
     parent: section.peripherals
 
   # PRODUCTS MENU - PHONE ACCESSORIES SECTION
   - name: Phone Accessories
     identifier: section.phone-accessories
-    url:
+    url: products/phone-accessories
     weight: 3
     parent: menu.products
     post: 2
 
   - name: Earphones
     identifier: phone-accessories.earphones
-    url:
+    url: products/phone-accessories/earphones
     weight: 1
     parent: section.phone-accessories
 
   - name: Cables
     identifier: phone-accessories.cables
-    url:
+    url: products/phone-accessories/cables
     weight: 2
     parent: section.phone-accessories
 
@@ -67,7 +68,7 @@ main:
   # PRODUCTS MENU - BATTERIES SECTION
   - name: Batteries
     identifier: section.batteries
-    url:
+    url: products/batteries
     weight: 2
     parent: menu.products
     post: 1
@@ -81,20 +82,20 @@ main:
   # PRODUCTS MENU - SPEAKERS SECTION
   - name: Speakers
     identifier: section.speakers
-    url:
+    url: products/speakers
     weight: 4
     parent: menu.products
     post: 2
 
   - name: Speakers
     identifier: speakers.speakers
-    url:
+    url: products/speakers/speakers
     weight: 1
     parent: section.speakers
 
   - name: Microphones
     identifier: speakers.microphones
-    url:
+    url: products/speakers #/microphones
     weight: 2
     parent: section.speakers
 

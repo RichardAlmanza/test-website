@@ -56,7 +56,7 @@
                             <div class="row">
                                 {{ if ne .URL "" }}
                                 <div class="col-sm-6">
-                                    <img src="{{ .URL | relLangURL }}" class="img-responsive hidden-xs"/>
+                                    <a href="{{ .Pre | default "#" | relLangURL }}"><img src="{{ .URL | relLangURL }}" class="img-responsive hidden-xs"/></a>
                                 </div>
                                 {{ end }}
                                 <div class="col-sm-3">

@@ -9,7 +9,7 @@ main:
   # PRODUCTS MENU
   - name: Products
     identifier: menu.products
-    url: /img/products-menu.png
+    url: img/products-menu.png
     weight: 2
 
   # PRODUCTS MENU - PERIPHERALS SECTION
@@ -68,7 +68,7 @@ main:
 
   - name: Power banks
     identifier: batteries.power-banks
-    url:
+    url: products/batteries/power-banks
     weight: 1
     parent: section.batteries
 

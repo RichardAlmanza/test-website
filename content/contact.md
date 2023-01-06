@@ -1,10 +1,10 @@
 ---
-translationKey: contact
+draft: true
+translationKey: /contact
 title: Contacto
 slug: contacto
-date: 2023-01-03T21:23:49-05:00
-draft: true
+date: 2023-01-05T23:02:59-05:00
+url: /contacto
 aliases:
-  - contact
+  - /contact
 ---
-

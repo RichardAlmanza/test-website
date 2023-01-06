@@ -55,4 +55,42 @@
 
 - id: contact
   translation: Contacto
-  
+
+- id: products
+  translation: Productos
+
+- id: peripherals
+  translation: Periféricos
+
+- id: mice
+  translation: Ratones
+
+- id: keyboards
+  translation: Teclados
+
+- id: headphones
+  translation: Auriculares
+
+- id: phone-accessories
+  translation: Accesorios para celular
+
+- id: earphones
+  translation: Auriculares
+
+- id: cables
+  translation: Cables
+
+- id: batteries
+  translation: Baterías
+
+- id: power-banks
+  translation: Baterías externas
+
+- id: speakers
+  translation: Parlantes
+
+- id: speakers
+  translation: Parlantes
+
+- id: microphones
+  translation: Micrófonos

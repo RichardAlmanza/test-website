@@ -27,6 +27,9 @@
 - id: phone-accessories.cables
   translation: Cables
 
+- id: phone-accessories.chargers
+  translation: Cargadores
+
 - id: section.batteries
   translation: Baterías
 
@@ -79,6 +82,9 @@
 
 - id: cables
   translation: Cables
+
+- id: chargers
+  translation: Cargadores
 
 - id: batteries
   translation: Baterías

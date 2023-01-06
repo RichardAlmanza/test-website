@@ -58,6 +58,12 @@ main:
     weight: 2
     parent: section.phone-accessories
 
+  - name: Chargers
+    identifier: phone-accessories.chargers
+    url: products/phone-accessories/chargers
+    weight: 3
+    parent: section.phone-accessories
+
   # PRODUCTS MENU - BATTERIES SECTION
   - name: Batteries
     identifier: section.batteries

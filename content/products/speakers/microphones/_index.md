@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 translationKey: products/speakers/microphones/
 title: Micrófonos
 slug: micrófonos

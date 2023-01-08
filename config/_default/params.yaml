@@ -81,8 +81,8 @@ topbar:
 # Enable and disable widgets for the right sidebar
 widgets:
   categories: true
-  tags: true
-  search: true
+  tags: false
+  search: false
 
 carouselCustomers:
   items: 3

@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 translationKey: products/peripherals/keyboards/
 title: Teclados
 slug: teclados

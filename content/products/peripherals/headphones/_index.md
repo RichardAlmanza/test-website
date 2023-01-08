@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 translationKey: products/peripherals/headphones/
 title: Auriculares
 slug: auriculares

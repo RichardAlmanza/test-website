@@ -1,10 +1,10 @@
-viewMorePostLink: blog
+viewMorePostLink: products
 author: Skyplus
 defaultKeywords:
   - hugo
   - go
 mainSections:
-  - blog
+  - products
 defaultDescription: Sobre Nosotros Somos una marca dedicada a la producción y distribución de dispositivos electrónicos, digitales para telecomunicaciones y para el hogar. Desde el año 2011 en el mercado colombiano, Y desde el año 2019 en el mercado de los Estados Unidos 🇺🇸 Encuéntranos en Amazon. ¡CONTACTANOS! ¿Por que nos escogen? Garantía absoluta de nuestra promesa
 
 # Social media
@@ -140,11 +140,11 @@ clients:
   title: Nuestros clientes
   subtitle: ""
 
-recent_posts:
-  enable: false
-  title: From our blog
-  subtitle: Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-  hide_summary: false
+# recent_posts:
+#   enable: false
+#   title: Our products
+#   subtitle: Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+#   hide_summary: true
 
 footer.recent_posts:
   enable: false

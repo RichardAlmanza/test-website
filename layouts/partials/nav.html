@@ -63,7 +63,7 @@
                                 {{ range .Children.ByWeight }}
                                     {{ $column := printf "%s" .Post }}
                                     {{ if eq $column "1" }}
-                                    <h5>{{ i18n .Identifier | default .Name}}</h5>
+                                    <a href="{{ .URL | relLangURL }}"><h5>{{ i18n .Identifier | default .Name}}</h5></a>
                                     {{ if .HasChildren }}
                                     <ul>
                                     {{ range .Children.ByWeight }}
@@ -78,7 +78,7 @@
                                 {{ range .Children.ByWeight }}
                                     {{ $column := printf "%s" .Post }}
                                     {{ if eq $column "2" }}
-                                    <h5>{{ i18n .Identifier | default .Name}}</code></h5>
+                                    <a href="{{ .URL | relLangURL }}"><h5>{{ i18n .Identifier | default .Name}}</h5></a>
                                     {{ if .HasChildren }}
                                     <ul>
                                     {{ range .Children.ByWeight }}
@@ -94,7 +94,7 @@
                                 {{ range .Children }}
                                     {{ $column := printf "%s" .Post }}
                                     {{ if eq $column "3" }}
-                                    <h5>{{ i18n .Identifier | default .Name}}</code></h5>
+                                    <a href="{{ .URL | relLangURL }}"><h5>{{ i18n .Identifier | default .Name}}</h5></a>
                                     {{ if .HasChildren }}
                                     <ul>
                                     {{ range .Children.ByWeight }}
@@ -109,7 +109,7 @@
                                 {{ range .Children }}
                                     {{ $column := printf "%s" .Post }}
                                     {{ if eq $column "4" }}
-                                    <h5>{{ i18n .Identifier | default .Name}}</code></h5>
+                                    <a href="{{ .URL | relLangURL }}"><h5>{{ i18n .Identifier | default .Name}}</h5></a>
                                     {{ if .HasChildren }}
                                     <ul>
                                     {{ range .Children.ByWeight }}

@@ -95,7 +95,7 @@ main:
 
   - name: Microphones
     identifier: speakers.microphones
-    url: products/speakers #/microphones
+    url: products/speakers/microphones
     weight: 2
     parent: section.speakers
 

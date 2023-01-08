@@ -23,19 +23,19 @@ main:
 
   - name: Mice
     identifier: products.mice
-    url: products/peripherals #/mice
+    url: products/peripherals/mice
     weight: 1
     parent: section.peripherals
 
   - name: Keyboards
     identifier: products.keyboards
-    url: products/peripherals #/keyboards
+    url: products/peripherals/keyboards
     weight: 2
     parent: section.peripherals
 
   - name: Headphones
     identifier: products.headphones
-    url: products/peripherals #/headphones
+    url: products/peripherals/headphones
     weight: 3
     parent: section.peripherals
 

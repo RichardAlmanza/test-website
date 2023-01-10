@@ -1,0 +1,38 @@
+<section class="bar background-white" id="about">
+    <div class="container">
+        <h1></h1>
+        {{ $elements := 3 }}
+        {{ $logos := slice "whatsapp" "facebook" "instagram" }}
+        {{ $elements_url := slice "https://wa.me/573128459082" "https://facebook.com/skypluscolombia" "https://instagram.com/skypluscolombia" }}
+
+        {{ $total_rows := div (len $logos) $elements }}
+
+        {{ if gt (mod (len $logos) $elements) 0 }}
+        {{ $total_rows = add $total_rows 1 }}
+        {{ end }}
+
+        {{ range $i, $sequence := seq $total_rows }}
+        <div class="row row-{{ $i }} row-{{ if eq (mod $i 2) 0 }}odd{{ else }}even{{ end }}">
+            {{ range $j, $sequence2 := (seq $elements) }}
+
+                {{ $feature_index := add (mul $i $elements) $j }}
+                {{ if lt $feature_index (len $logos) }}
+                    {{ $element := index $logos $feature_index }}
+                    {{ $element_url := index $elements_url $feature_index }}
+
+                    <div class="col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
+                        <div class="box-simple">
+                            <a href="{{ $element_url }}">
+                                <div class="icon" style="font-size: 50px;">
+                                    <i class="fab fa-20x fa-{{ $element }}"></i>
+                                </div>
+                            </a>
+                            <h3>{{ $element | title | markdownify }}</h3>
+                        </div>
+                    </div>
+                {{ end }}
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</section>

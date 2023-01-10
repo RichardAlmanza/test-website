@@ -108,7 +108,7 @@ main:
   # About
   - name: About us
     identifier: menu.about
-    url: about
+    url: "#about"
     weight: 6
 
   # CONTACT

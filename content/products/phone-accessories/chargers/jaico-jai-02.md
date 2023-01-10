@@ -9,7 +9,7 @@ aliases:
   - /products/phone-accessories/chargers/jaico-jai-02
 
 banner: img/products/chargers/Jaico Jai-02.jpg
-categories: 
+categories:
   - productos
   - accesorios para celular
   - cargadores
